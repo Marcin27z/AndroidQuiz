@@ -1,0 +1,80 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8250767702338308688",
+      "lastPropertyId": "8:8346071138646852247",
+      "name": "Question",
+      "properties": [
+        {
+          "id": "1:8065235698217283532",
+          "name": "id"
+        },
+        {
+          "id": "2:8746847344853062865",
+          "name": "question"
+        },
+        {
+          "id": "3:7785712134032256767",
+          "name": "correctAnswer"
+        },
+        {
+          "id": "4:8209227251352790090",
+          "indexId": "1:5651652518204281965",
+          "name": "quizId"
+        },
+        {
+          "id": "5:377841177977659530",
+          "name": "answer1"
+        },
+        {
+          "id": "6:5634607619579475829",
+          "name": "answer2"
+        },
+        {
+          "id": "7:6216329646217559254",
+          "name": "answer3"
+        },
+        {
+          "id": "8:8346071138646852247",
+          "name": "answer4"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:3146367715123220159",
+      "lastPropertyId": "2:5897305900332999620",
+      "name": "Quiz",
+      "properties": [
+        {
+          "id": "1:365461453309426455",
+          "name": "id"
+        },
+        {
+          "id": "2:5897305900332999620",
+          "name": "name"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:981457977076620331",
+          "name": "questions"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "2:3146367715123220159",
+  "lastIndexId": "1:5651652518204281965",
+  "lastRelationId": "1:981457977076620331",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
